@@ -42,4 +42,5 @@ url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 
 [tool.setuptools]
-packages = ["dia2"]
+packages = ["dia2", "dia2.audio", "dia2.core", "dia2.runtime"]
+
